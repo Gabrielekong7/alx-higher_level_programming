@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "lists.h"
+
 /*
  * File: 13-is_palindrome.c
  * Auth: EKONG GABRIEL
