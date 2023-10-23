@@ -1,6 +1,3 @@
-101-safe_function.py
-
-
 #!/usr/bin/python3
 import sys
 
