@@ -3,8 +3,7 @@
 def safe_print_integer(value):
     # Function that prints an integer with "{:d}".format().
     try:
-        print("{:d}".format(int(value))
-                , end='\n')
+        print("{:d}".format(value))
         return True
     except (ValueError, TypeError):
         return False
