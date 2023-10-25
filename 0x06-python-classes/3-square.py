@@ -3,13 +3,13 @@
 
 
 class square:
-    """ Define a square."""
+    """Define a square."""
 
     def __init__(self, size=0):
         """Constructor.
 
         Args:
-            size: Lenght of the square.
+            size: Lenght of a side of the square.
 
         Raises:
             TypeError: if size is not an integer.
