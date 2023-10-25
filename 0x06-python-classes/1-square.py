@@ -9,6 +9,6 @@ class Square:
     """constructor.
 
     Args:
-        size: lenght of a size of a square:
+        size: lenght of a size of the  square:
     """
-    self.__size = size
+    self_size = size
