@@ -2,7 +2,7 @@
 """Square module."""
 
 
-class square:
+class Square:
     """Define a square."""
 
     def __init__(self, size=0):
