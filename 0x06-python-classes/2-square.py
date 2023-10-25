@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """Square module."""
 
+
+
 class Square:
     """Define a square."""
 
@@ -11,8 +13,8 @@ class Square:
             size: Lenght of a side  of the square.
 
         Raises:
-        TypeError: if size is not an integer
-        ValueError: if size is less than 0
+            TypeError: if size is not an integer
+            ValueError: if size is less than 0
         """
         if not isinstance(size, int):
             raise TypeError('size must be an integer')
