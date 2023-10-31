@@ -1,4 +1,1 @@
-#!/usr/bin/python3
-"Function use to get the type of object"
-
-Type
+type
