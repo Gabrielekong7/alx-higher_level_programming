@@ -1,14 +1,19 @@
 #!/usr/bin/python3
-"""Module for the Base class ."""
+"""
+Defines a base model class.
+"""
+import json
+import csv
+import turtle
 
 class Base:
-	"""A representation of the base of our OOP hierarchy ."""
-		__nb_objects = 0
-		def __init__(self, id=None):
-			"""constructor"""
-				if if id is not None:
-				self.id = id
-				else:
-				Base.__nb_objects += 1
-				self.id = Base.__nb_objects
-
+    """
+    Represents the base model
+    """
+    __nb_objects = 0
+    def __init__(self, id=None):
+        if id is not None:
+            self.id = id
+        else:
+            Base.__nb_objects += 1
+            self.id = Base.__nb_objects
